@@ -1,11 +1,15 @@
-version: '3.8'
-
 services:
-  pdf-to-csv-api:
-    build: .
+  pdf-to-csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pdf-to-csv:latest
+    container_name: pdf-to-csv
+    restart: unless-stopped
     ports:
-      - "8000:8000"
+      - "8001:8001"
     volumes:
       - .:/app
     environment:
-      - PYTHONUNBUFFERED=1
+      PYTHONUNBUFFERED: "1"
+      TZ: "America/Sao_Paulo"
