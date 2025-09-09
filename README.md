@@ -1,8 +1,8 @@
 # PDF to CSV Converter API
 
-![GitHub last commit](https://img.shields.io/github/last-commit/seu_usuario/pdf2csv-api)
-![GitHub issues](https://img.shields.io/github/issues/seu_usuario/pdf2csv-api)
-![GitHub stars](https://img.shields.io/github/stars/seu_usuario/pdf2csv-api?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/krittz/pdf2csv-api)
+![GitHub issues](https://img.shields.io/github/issues/krittz/pdf2csv-api)
+![GitHub stars](https://img.shields.io/github/stars/krittz/pdf2csv-api?style=social)
 
 ## Descrição
 
@@ -48,7 +48,7 @@ pdf2csv-api/
 Clone o repositório para o seu diretório local:
 
 ```bash
-git clone https://github.com/seu_usuario/pdf2csv-api.git
+git clone https://github.com/krittz/pdf2csv-api.git
 cd pdf2csv-api
 ```
 
